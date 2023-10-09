@@ -27,7 +27,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/downloadProgress"
+            android:id="@+id/percentageShown"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -35,7 +35,7 @@
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/startButton"
+            android:id="@+id/startBut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -43,7 +43,7 @@
             android:onClick="startDownload" />
 
         <Button
-            android:id="@+id/stopButton"
+            android:id="@+id/stopBut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -51,7 +51,7 @@
             android:onClick="stopDownload"/>
 
         <Switch
-            android:id="@+id/toggleSwitch"
+            android:id="@+id/toggleSwi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        startButton = findViewById(R.id.startButton);
-        stopButton = findViewById(R.id.stopButton);
-        percentageGiven = findViewById(R.id.downloadProgress);
+        startButton = findViewById(R.id.startBut);
+        stopButton = findViewById(R.id.stopBut);
+        percentageGiven = findViewById(R.id.percentageShown);
 
     }
 
